@@ -1,0 +1,72 @@
+body {
+  max-width: 100wvm;
+  background: linear-gradient(
+    180deg,
+    rgba(6, 148, 251, 0.36) 0%,
+    rgba(18, 169, 248, 0.3312) 7.81%,
+    rgba(32, 193, 244, 0.23182) 16.67%,
+    rgba(50, 225, 240, 0.13969) 28.65%,
+    rgba(63, 248, 236, 0.0756) 36.98%,
+    rgba(106, 169, 215, 0.2664) 100%
+  );
+}
+
+.WeatherApp {
+  color: rgba(5, 100, 185, 1);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.WeatherIcon img {
+  max-width: 8em;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.DescriptionIcon {
+  max-width: 5em;
+  margin-bottom: -1.5em;
+}
+
+.DescriptionText {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -1.5em;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.DescriptionContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.DescriptionContainer > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
