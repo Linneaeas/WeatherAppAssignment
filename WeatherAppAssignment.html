@@ -6,37 +6,58 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="WeatherAppAssignment.css" />
   </head>
+
   <body>
     <div class="WeatherApp">
-      <h1 class="City">Can't find city'</h1>
+      <header>
+        <h1 class="City">Can't find city</h1>
+      </header>
 
-      <h2 class="DateTime">No available time</h2>
+      <main>
+        <time class="DateTime">No available date or time</time>
+        <br />
+        <br />
 
-      <img class="WeatherIcon" src="Images/clear.png" />
+        <img class="WeatherIcon" src="Images/clear.png" alt="Weather icon" />
 
-      <h3 class="Temp">No existing temp</h3>
+        <h2 class="Temp">No existing temp</h2>
 
-      <div class="DescriptionContainer">
-        <div class="HumidityContainer">
-          <img src="Images/humidity.png" class="DescriptionIcon" />
-          <h4 class="Humidity">No value found</h4>
-          <p class="DescriptionText">Humidity</p>
+        <div class="DescriptionContainer">
+          <section class="HumidityContainer">
+            <img
+              src="Images/humidity.png"
+              class="DescriptionIcon"
+              alt="Humidity symbol"
+            />
+            <p class="Humidity">No value found</p>
+            <h3 class="DescriptionText">Humidity</h3>
+          </section>
+
+          <section class="WindspeedContainer">
+            <img
+              src="Images/wind.png"
+              class="DescriptionIcon"
+              alt="Wind symbol"
+            />
+            <p class="Windspeed">No value found</p>
+            <h3 class="DescriptionText">Wind speed</h3>
+          </section>
+
+          <section class="AtmosphericpressureContainer">
+            <img
+              src="Images/atmosphericpressure.png"
+              class="DescriptionIcon"
+              alt="Atmospheric pressure symbol"
+            />
+            <p class="Atmosphericpressure">No value found</p>
+            <h3 class="DescriptionText">Atmospheric pressure</h3>
+          </section>
         </div>
+      </main>
 
-        <div class="WindspeedContainer">
-          <img src="Images/wind.png" class="DescriptionIcon" />
-          <h4 class="Windspeed">No value found</h4>
-          <p class="DescriptionText">Wind speed</p>
-        </div>
-
-        <div class="AtmosphericpressureContainer">
-          <img src="Images/atmosphericpressure.png" class="DescriptionIcon" />
-          <h4 class="Atmosphericpressure">No value found</h4>
-          <p class="DescriptionText">Atmospheric pressure</p>
-        </div>
-      </div>
-
-      <script src="WeatherAppAssignment.js"></script>
+      <footer>
+        <script src="WeatherAppAssignment.js"></script>
+      </footer>
     </div>
   </body>
 </html>
