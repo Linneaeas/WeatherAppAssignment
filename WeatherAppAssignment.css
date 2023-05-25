@@ -5,16 +5,15 @@ html {
 body {
   background: linear-gradient(
     180deg,
-    rgba(6, 148, 251, 0.36) 20%,
-    rgba(106, 169, 215, 0.2664) 90%
+    rgba(0, 128, 255, 0.4),
+    rgba(251, 3, 243, 0.3)
   );
 }
 
 .WeatherApp {
-  color: rgba(5, 100, 185, 1);
+  color: rgb(1, 95, 189);
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h1 {
