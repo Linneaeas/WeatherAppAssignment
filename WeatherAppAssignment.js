@@ -1,6 +1,6 @@
 const apiKey = "a2dd402a4a606ef9331d9ec30d914ed6";
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/weather?lat=50.32&lon=72.06&units=metric&appid=";
+  "https://api.openweathermap.org/data/2.5/weather?lat=32.54&lon=13.11&units=metric&appid=";
 
 function getCurrentTime() {
   var currentDate = new Date();
